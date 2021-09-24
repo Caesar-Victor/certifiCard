@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+body {
+    background: linear-gradient(236.85deg, #034722 27.26%, #53bd76 96.03%);
+    font-family: 'Roboto', sans-serif;
+    padding: 32px;
+}
+
+.container {
+    background: #7aaef7;
+    color: #1c1c1c;
+    margin: 64px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 6px #0e1d2f;
+    padding: 64px;
+}
+
+.cabeçalho {
+    display: flex;
+    justify-content: space-between;
+}
+
+.perfil {
+    display: flex;
+}
+
+.perfil-foto {
+    border-radius: 460px;
+    max-height: 160px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo {
+    margin-left: 16px;
+}
+
+.titulo h1 {
+    font-weight: 700;
+    font-size: 36px;
+}
+.titulo h3 {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.tema button {
+    align-self: flex-end;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 8px 16px;
+    background: #ecf4ff;
+    border-radius: 100px;
+}
+
+.projetos {
+    background: linear-gradient(236.85deg, #82cfa5 27.26%, #2e633f 96.03%);
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    margin-top: 32px;
+    padding: 32px;
+    box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+}
+
+.redesSociais {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.redesSociais img {
+    height: 64px;
+    align-items: center;
+    margin: 16px;
+}
+
+.projeto-titulo {
+    list-style: none;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.projeto-item {
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 48px;
+}
+
+.projeto-item a {
+    color: #1c1c1c;
+    text-decoration: none;
+}
+
+.dark {
+    background: linear-gradient(236.85deg, #49607c 2727.26%, #9cc0eb 96.03%);
+}
+
+.dark .container {
+    background: #333439;
+    color: #f6f6f6;
+}
+
+.dark .projetos {
+    color: #1c1c1c
+}
+
+.dark .tema button {
+    background: #1c1c1c;
+    color: #ffffff;
+    border: 2px solid #f7f7f7
+}

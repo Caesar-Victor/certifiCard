@@ -1,0 +1,39 @@
+<html>
+
+<head>
+
+<body>
+    <link rel="stylesheet" type="text/css" href="estilo.css" media="screen" />
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg"
+        class="page-logo" alt=""><br><br>
+    <div class="container">
+        <h1 class="page-title">
+            Conversor de temperaturas
+        </h1>
+        <form id = "form">
+            <label for="moeda">Escolha a unidade do valor de entrada:</label><br/>
+            <input type="radio" id="c" name="temp" value="c">Celcius<br/> 
+            <input type="radio" id="f" name="temp" value="f">Fahrenheit<br/> 
+            <input type="radio" id="k" name="temp" value="k">Kelvin<br/>
+            <label for="moeda">Insira o valor</label>
+            <input type="number" id="valor" size="6" /><br>
+            <label for="moeda">Converter valor para: </label><br>
+            <input type="checkbox" id="celcius">
+            <label for="celcius"> Celcius </label><br>
+            <input type="checkbox" id="frht">
+            <label for="frht"> Fahrenheit</label><br>
+            <input type="checkbox" id="kelvin">
+            <label for="kelvin"> Kelvin</label><br>
+        </form>
+        <script type="text/javascript" src="comandos.js"></script>
+        <button type="submit" onclick="Converter('temperatura')">Calcular</button>
+        <h2 id="textoModificavel"></h2>
+        <a href="site.html" target="_self">
+        <button type="submit">Voltar</button>
+    </div>
+    <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+</body>
+</head>
+
+</html>

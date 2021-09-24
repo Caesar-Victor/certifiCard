@@ -1,0 +1,27 @@
+<html>
+<link rel="stylesheet" type="text/css" href="estilo.css" media="screen" />
+
+<body>
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo"alt=""><br>
+    <div class="container">
+        <h1 class="page-title">
+            Aluraflix
+        </h1>
+        <p>Adicionar filme</p>
+      Nome do Filme: <input type="text" id="nome" name="filme" placeholder="Insira o nome do filme"><br>
+        URL da capa: <input type="text" id="url" name="filme" placeholder="Insira a URL (link) da imagem">
+        <h2 class="resultado" id="resultado"></h2>
+        <button id="botao1" type="submit" onclick="addFilme();">Adicionar</button>
+        <button id="botao2" type="submit" onclick="rmvFilme();">Remover</button>
+
+        <br><br>
+        <div id="posters">
+            <script type="text/javascript" src="codigo.js"></script>
+        </div>
+    </div>
+    <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>
+</body>
+
+</html>
